@@ -7,6 +7,7 @@ def calculator():
     while True:
         operation = input("Enter operation:\n")
         if operation.lower() == 'exit':
+        else operation.upper() == 'EXIT' :
             print("Exiting the calculator. Goodbye!")
             break
 
